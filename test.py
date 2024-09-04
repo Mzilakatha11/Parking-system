@@ -10,6 +10,9 @@ class TestParkingHours(unittest.TestCase):
     def test_is_parking1(self):
         self.assertTrue(self.park.hours_parking(0)== None)
 
+    def test_is_parking2(self):
+        self.assertTrue(self.park.yearly_parking(-100)== None)
+
     def test_hours_parking_one_hour(self):
         self.assertEqual(self.park.hours_parking(1), 14)
         self.assertEqual(self.park.hours_parking(2), 24)
