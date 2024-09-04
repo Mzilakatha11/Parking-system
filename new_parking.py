@@ -132,10 +132,10 @@ def main():
             if cost is not None:
                 print(f"Hi {park.name.upper()} with Car Registration Number {park.car_registration_number.upper()}, Your parking cost price is R{cost}")
             else:
-                print("Invalid input. Please try again.")
+                print("Invalid input. Please try again")
 
         except ValueError:
-          print("Invalid input. Please enter a number.")
+          print("Invalid input. Please enter a number")
 
 
 # Run the main function if this script is executed
