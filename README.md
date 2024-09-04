@@ -1,9 +1,10 @@
 1.	Start the Program:
-	The program will start with a welcome message: "Durban Online Parking"
+	The program will start with a welcome message: "Durban Online Parking"
 
 3.	Provide Your Details:
-	Enter your Name  e.g Thabiso
-	Enter your Car Registration Number  e.g. ND 25275
+	Enter your Name  e.g Thabiso
+
+	Enter your Car Registration Number  e.g. ND 25275
 
 5.	Choose the Type of Parking:
 	Press 1 for hourly parking.
