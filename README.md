@@ -1,10 +1,15 @@
 1.	Start the Program:
-	The program will start with a welcome message: "Durban Online Parking"
+	The program will start with a welcome message:
+
+       "Durban Online Parking"
+
 
 3.	Provide Your Details:
+   
 	Enter your Name  e.g Thabiso
 
 	Enter your Car Registration Number  e.g. ND 25275
+
 
 5.	Choose the Type of Parking:
    
@@ -18,6 +23,7 @@
 
 	Press 0 to Exit the program.
 
+
 7.	Input the Duration:
 
   	For the selected parking type, enter the appropriate duration:
@@ -30,9 +36,11 @@
 
 	Yearly Parking: Enter the number of years.
 
-8.	Receive Your Cost:
+
+9.	Receive Your Cost:
 	The program will display the calculated cost with your details.
 
-9.	Exit the Program:
+
+10.	Exit the Program:
 	Press 0 to exit the program at any time.
 
