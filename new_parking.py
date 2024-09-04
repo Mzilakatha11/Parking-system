@@ -9,7 +9,7 @@ class Parking_Hours:
 # Method to calculate the cost for parking based on the number of hours
     def hours_parking(self, parking_hours):
         if parking_hours <= 0:
-            print("Invalid number of hours")
+            print("Invalid Number Of Hours")
             return None
 
         # Cost for parking for up to 1 hour without discount
@@ -35,7 +35,7 @@ class Parking_Hours:
 
     def daily_parking(self, number_of_days):
         if number_of_days <= 0:
-            print("Invalid number of days")
+            print("Invalid Number Of Days")
             return None
 
         if number_of_days > 0:
@@ -50,7 +50,7 @@ class Parking_Hours:
     # Method to calculate the cost for parking based on the number of months 
     def monthly_parking(self, number_of_months):
         if number_of_months <= 0 or number_of_months >= 12:
-            print("Invalid number of months")
+            print("Invalid Number Of Months")
             return None
         
         daily_price = 156
@@ -76,7 +76,7 @@ class Parking_Hours:
     def yearly_parking(self, number_of_years):
     
         if number_of_years <= 0:
-            print("Invalid number of years")
+            print("Invalid Number Of Years")
             return None
         
     # Calculate cost for up to 5 years with a discount of R5000   
@@ -132,10 +132,10 @@ def main():
             if cost is not None:
                 print(f"Hi {park.name.upper()} with Car Registration Number {park.car_registration_number.upper()}, Your parking cost price is R{cost}")
             else:
-                print("Invalid input. Please try again")
+                print("Invalid Input. Please try again.")
 
         except ValueError:
-          print("Invalid input. Please enter a number")
+          print("Invalid Input. Please enter a number.")
 
 
 # Run the main function if this script is executed
